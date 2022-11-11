@@ -1,1 +1,499 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pleasure Island Bootstrap</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="../BootstraProject/css/main.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="../BootstraProject/images/pleasure-island-chamber-logo-new.png" class="img-fluid" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#event">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#eat">Where To Eat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#news">News</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper p-0">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>welcome to Pleasure Island</h1>
+                            <p>The Pleasure Island Chamber of Commerce strives to enhance the quality of life of the residents,
+                                 stakeholders, and visitors to Pleasure Island and the contiguous community. 
+                                  The Chamber provides the business community with the leadership, advocacy,
+                                   and representation needed to enhance its membership, their respective businesses,
+                                 and quality of life while promoting the North Carolina communities of Carolina Beach, 
+                                 Kure Beach, and Fort Fisher.  </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="container booking-area">
+            <form class="row">
+                <div class="col-lg mb-3 mb-lg-0">
+                    <input type="date" class="form-control" placeholder="Date">
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <input type="date" class="form-control" placeholder="Date">
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <select class="form-select">
+                        <option selected>Adults</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <select class="form-select">
+                        <option selected>Children</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <button type="submit" class="main-btn rounded-2 px-lg-3">Check Availability</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Banner section exit -->
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row flex-lg-row flex-column-reverse ">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h3>Welcome to <span>Plesure Island <br class="d-none d-lg-block">
+                            the haven</span> of your weekend</h3>
+                    <p>The Pleasure Island Chamber of Commerce was formed in 1937
+                            with Robert Cronly Plummer serving as the first President. 
+                            Robert was the son of Carolina Beach's very first Mayor, John W.
+                             Plummer. The Chamber, then called the Carolina Beach Chamber of Commerce, 
+                           was formed as a non-profit, membership-based organization with a focus on the
+                            business community of the island.
+                            
+                    </p>
+                    <a href="https://www.pleasureislandnc.org/history.html" class="main-btn mt-4">Learn more</a>
+                </div>
+                <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+                    <img src="..//BootstraProject/images/beach-g319ee35a3_1280.jpg" class="img-fluid" alt="About Us">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- About section exit -->
+
+    <!-- Event section -->
+    <section id="event" class="rooms_wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6>What We can do for you</h6>
+                    <h3>Our Favorite events</h3>
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="room-item">
+                        <img src="../BootstraProject/images/pexels-brigitte-tohm-247078sm.jpg" class="img-fluid" alt="holiday image">
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-white mb-lg-5 text-decoration-underline">Holiday Shopping</h5>
+                                <p class="text-white">For over 35 years the Christmas Carousel Holiday Gift Market
+                                     has been a Triangle Thanksgiving Tradition for thousands of holiday shoppers.</p>
+                                   
+                                <a class="main-btn border-white text-white mt-lg-5" href="https://christmascarousel.com/">Learn More</a>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>
+                <div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="room-item">
+                        <img src="../BootstraProject/images/pexels-melissa-698907sm.jpg" class="img-fluid" alt="festival image">
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-white mb-lg-5 text-decoration-underline">Kate Festival</h5>
+                                <p class="text-white">Come watch the Fort Fisher State Recreation Area for the 15th Annual Fear Kite Festival presented in partnership with the Pleasure
+                                      Island Chamber of Commerce.</p>
+                               
+                                <a class="main-btn border-white text-white mt-lg-5" href="https://www.wilmingtonandbeaches.com/event/15th-annual-cape-fear-kite-festival/4693/">Learn more</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="room-item">
+                        <img src="../BootstraProject/images/pexels-tom-fisk-2181385.jpg" class="img-fluid" alt="fort fisher center">
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-white mb-lg-5 text-decoration-underline">Fort Fisher</h5>
+                                <p class="text-white">Site of Civil War's largest Amphibious (Land and Water) Battle,
+                                     the remaining portion of the gigantic Fort Fisher earthworks,
+                                      sits near the Visitors Center. </p>
+                                
+                                <a class="main-btn border-white text-white mt-lg-5" href="https://www.wilmingtonandbeaches.com/listing/fort-fisher-state-historic-site/235/">Learn more</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Event Section Exit -->
+
+    <!-- Services section -->
+    <section id="services" class="services_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 section-title text-center mb-5">
+                        <h6>We Are Here For You</h6>
+                        <h3>Our Awesome Services</h3>
+                    </div>
+                </div>
+                <div class="row align-items-center service-item-wrap">
+                    <div class="col-lg-7 p-lg-0">
+                        
+                        <!--Service Area End-->
+
+    
+                </div>
+            </div>
+        </div>
+        <div class="counter mt-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count1"></span>+
+                        </h1>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count2"></span>+
+                            </h1>
+                            <p>New Friendships</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count3"></span>+
+                            </h1>
+                            <p>Five Start Ratings</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count4"></span>+
+                            </h1>
+                            <p>Served Breakfast</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services section Exit -->
+
+
+    
+    
+    <!-- Gallery section -->
+    <section id="gallery" class="gallery_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6>Best Pictures Of the Plesure Island</h6>
+                    <h3>Our Gallery</h3>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img src="../BootstraProject/images/bay-gc96248621_640.jpg" class="img-fluid w-100" alt="boat in island">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img src="../BootstraProject/images/beach-g24340e796_640.jpg" class="img-fluid w-100" alt="family in vacation">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img src="../BootstraProject/images/beach-gc27196c84_640.jpg" class="img-fluid w-100" alt="seashells">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img src="../BootstraProject/images/mountains-gb8c1a5357_640.jpg" class="img-fluid w-100" alt="mountain">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-md-6 gallery-item">
+                    <img src="../BootstraProject/images/sea-g1e16cb612_640.jpg" class="img-fluid w-100" alt="sea">
+                    <div class="gallery-item-content"> </div>
+                </div>
+                <div class="col-md-6 gallery-item">
+                    <img src="../BootstraProject/images/hd-wallpaper-g4e3f2a9a6_1280.jpg" class="img-fluid w-100" alt="boat">
+                    <div class="gallery-item-content"> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section Exit -->
+
+    <!-- Eat section -->
+    <section id="eat" class="price_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6>Best & Affordable Price for you</h6>
+                    <h3>Where To Eat</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Restaurants</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Restaurant-American</p>
+                            </li>
+                            <li>
+                                <p>Restaurant-Mexicon</p>
+                            </li>
+                            <li>
+                                <p>Restaurant-Seafood</p>
+                            </li>
+                            <li>
+                                <p>Restaurant-Thai</p>
+                            </li>
+                        </ul>
+                        <hr/>
+                        
+                        <a href="https://www.pleasureislandnc.org/where-to-eat.html" class="main-btn">Learn more</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Coffe Shop</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Malama Cafe</p>
+                            </li>
+                            <li>
+                                <p>Britt's Donuts Shop</p>
+                            </li>
+                            <li>
+                                <p>Starbucks</p>
+                            </li>
+                            <li>
+                                <p>Dunkin</p>
+                            </li>
+                        </ul>
+                        <hr/>
+                        
+                        <a href="https://www.pleasureislandnc.org/where-to-eat.html" class="main-btn">Learn more</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Desserts</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Jersey Mike's Subs</p>
+                            </li>
+                            <li>
+                                <p>Krazy Kones</p>
+                            </li>
+                            <li>
+                                <p>Latella Gelato</p>
+                            </li>
+                            <li>
+                                <p>Squigley's</p>
+                            </li>
+                        </ul>
+                        <hr/>
+                        
+                        <a href="https://www.pleasureislandnc.org/where-to-eat.html" class="main-btn">Learn more</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Grocery</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Sea Merchant</p>
+                            </li>
+                            <li>
+                                <p>Publix Super Market</p>
+                            </li>
+                            <li>
+                                <p>Whole Foods</p>
+                            </li>
+                            <li>
+                                <p>Trader Joes</p>
+                            </li>
+                        </ul>
+                        <hr/>
+                        
+                        <a href="https://www.pleasureislandnc.org/where-to-eat.html" class="main-btn">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing Section Exit  -->
+
+    <!-- Pricing section -->
+    <section id="news" class="blog_wrapper pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6>For Our Visiters</h6>
+                    <h3>Our News</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card p-0 border-0 rounded-0">
+                        <img src="../BootstraProject/images/history440sm.jpg" alt="historic picture of hotel">
+                        <div class="blog-content bg-white p-4">
+                            <h5 class="text-decoration-underline mb-4">Live&Work</h5>
+                
+                            <p class="mt-2">Plan your vacation at Pleasure Island, home to some of the most
+                                    beautiful North Carolina beaches.  
+                                      </p>
+                            <a href="#" class="main-btn mt-2">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card p-0 border-0 rounded-0">
+                        <img src="../BootstraProject/images/history-2_orig440sm.png" alt="historic picture">
+                        <div class="blog-content bg-white p-4">
+                            <h5 class="text-decoration-underline mb-4">Visit</h5>
+                            
+                            <p class="mt-2">Pleasure Island and nearby Wilmington, New Hanover County,offer a services from locally businessen.
+                            </p>
+                            <a href="#" class="main-btn mt-2">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="our-partner-slider mt-5">
+            <div class="container swiper our-partner">
+                <div class=" swiper-wrapper">
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing Section Exit  -->
+
+    
+    <!-- Footer section -->
+    <footer>
+
+        <h3>Follow Us</h3>
+                   
+            <div class="icon">
+                    <a href="https://www.facebook.com/PleasureIslandChamber">
+            <i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.instagram.com/pleasureislandchamber">
+            <i class='bx bxl-instagram-alt' ></i></a>
+            <a href="https://www.youtube.com/channel/UCSNUg1dGGaMzApNeyf6CleA">
+             <i class='bx bxl-youtube'></i></a>
+            <p><address> 1121 N Lake Park Blvd. | Carolina Beach, NC 28428<br>Phone:(910) 458-8434<br>&copy;2022  Created by Arzu Pashayeva
+            </address>
+                
+        </div>
+    
+        </footer>
+           
+        
+    
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Custom Js Link -->
+    <script src="../BootstraProject/main.js"></script>
+</body>
+
+</html>
+
+
+
